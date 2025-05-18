@@ -1,0 +1,160 @@
+<html>
+<head>
+    <link href="design.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+  
+  <title>Menu - Tanjiro's Japanese Restaurant</title>
+  <style>
+    .navi {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .menu-section {
+      background-color: #8B0000;
+      padding: 30px;
+      color: #fff;
+      text-align: center;
+      font-family: 'times new roman';
+      font-weight: bold;
+    }
+
+    .menu-title {
+      color: white;
+      font-size: 32px;
+      margin-bottom: 30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .menu-card {
+      background-color: white;
+      color: black;
+      border-radius: 8px;
+      overflow: hidden;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      text-align: center;
+      border: 1px solid #D4AF37;
+    }
+
+    .menu-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .menu-card h3 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+      color: #8B0000;
+    }
+
+    .menu-card p {
+      font-size: 14px;
+      padding: 0 10px 10px;
+    }
+  </style>
+</head>
+<body>
+    <div class="navi">
+    <nav class="navbar navbar-expand-sm bg-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item bg-dark mx-3">
+                    <a class="nav-link text-white" href="restaurant.html">HOME</a>
+                </li>
+                <li class="nav-item bg-dark mx-3">
+                    <a class="nav-link text-white" href="menu.html">MENU</a>
+                </li>
+                <li class="nav-item bg-dark mx-3">
+                    <a class="nav-link text-white" href="admins.html">DEMON SLAYER TEAM</a>
+                </li>
+                <li class="nav-item bg-dark mx-3">
+                    <a class="nav-link text-white" href="contact.html">CONTACT US</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="menu-section">
+      <h2 class="menu-title">OUR JAPANESE MENU</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="sushi-platter.png" alt="Sushi Platter">
+          <h3>Samurai Sushi Platter</h3>
+          <p>Assorted nigiri and maki with wasabi and pickled ginger</p>
+        </div>
+        <div class="menu-card">
+          <img src="tonkotsu-ramen.png" alt="Ramen">
+          <h3>Tonkotsu Ramen</h3>
+          <p>Rich pork broth with chashu pork, bamboo shoots, and egg</p>
+        </div>
+        <div class="menu-card">
+          <img src="wagyu.jpeg" alt="Wagyu">
+          <h3>Wagyu Beef</h3>
+          <p>Premium Japanese A5 wagyu cooked teppanyaki style</p>
+        </div>
+        <div class="menu-card">
+          <img src="tempura.jpg" alt="Tempura">
+          <h3>Tempura Moriawase</h3>
+          <p>Assorted seafood and vegetables in light crispy batter</p>
+        </div>
+        <div class="menu-card">
+          <img src="udon.jpg" alt="Udon">
+          <h3>Nikutama Udon</h3>
+          <p>Thick wheat noodles with beef and poached egg</p>
+        </div>
+        <div class="menu-card">
+          <img src="yakitori.jpg" alt="Yakitori">
+          <h3>Yakitori Set</h3>
+          <p>Skewered grilled chicken with various seasonings</p>
+        </div>
+        <div class="menu-card">
+          <img src="bento.jpg" alt="Bento">
+          <h3>Zen Bento Box</h3>
+          <p>Traditional Japanese lunch box with varied dishes</p>
+        </div>
+        <div class="menu-card">
+          <img src="matchadessert.jpg" alt="Matcha">
+          <h3>Matcha Parfait</h3>
+          <p>Layers of matcha ice cream, red bean, and mochi</p>
+        </div>
+        <div class="menu-card">
+          <img src="sashimi.jpg" alt="Sashimi">
+          <h3>Sashimi Deluxe</h3>
+          <p>Fresh slices of premium tuna, salmon, and yellowtail</p>
+        </div>
+        <div class="menu-card">
+          <img src="okonomiyaki.jpg" alt="Okonomiyaki">
+          <h3>Osaka Okonomiyaki</h3>
+          <p>Savory Japanese pancake with cabbage and pork</p>
+        </div>
+        <div class="menu-card">
+          <img src="takoyaki.jpg" alt="Takoyaki">
+          <h3>Takoyaki</h3>
+          <p>Octopus balls with bonito flakes and okonomiyaki sauce</p>
+        </div>
+        <div class="menu-card">
+          <img src="mochi.jpg" alt="Mochi">
+          <h3>Daifuku Mochi</h3>
+          <p>Soft rice cakes filled with sweet red bean paste</p>
+        </div>
+      </div>
+    </div>
+</body>
+<footer style="background-color:#333;height:150px;width:100%;color:white;text-align:center;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:5px;margin-top:30px;">
+    <h2 style="font-size:medium; margin-top:4px;">Email : tanjirorestaurant@gmail.com</h2>
+    <h2 style="font-size:medium;">Contact number : +81 3-1234-5678</h2><br>
+    <h2 style="font-size:medium;">Address: 1-2-3 Ginza, Chuo-ku, Tokyo 104-0061, Japan</h2>
+    <br>
+    <h2 style="font-size:medium;">----------武士道精神 (Bushido Spirit)---------</h2>
+</footer>
+</html>
